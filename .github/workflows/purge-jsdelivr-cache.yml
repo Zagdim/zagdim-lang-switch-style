@@ -1,0 +1,9 @@
+name: Purge jsDelivr
+on:
+  push:
+    branches: [main]
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS https://purge.jsdelivr.net/gh/Zagdim/zagdim-lang-switch-style@main/style.css

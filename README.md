@@ -1,4 +1,11 @@
-# [repository-name]
+# zagdim-lang-switch-style
+
+## Description
+
+Simple set of css styles for the language switcher in zagdim.com.
+Cached artifact available at [jsdeliver](https://purge.jsdelivr.net/gh/Zagdim/zagdim-lang-switch-style@main/style.css) CDN. Cache is force renewed at avery push to the repo (see github-workflow file).
+
+Preview available at [github page](https://zagdim.github.io/zagdim-lang-switch-style/).
 
 ## Getting the project (for non-developers)
 
@@ -14,18 +21,18 @@ Then open a terminal.
 ### First time: download the project
 
 ```bash
-git clone git@github.com:Zagdim/[repository-name].git
-cd [repository-name]
+git clone git@github.com:Zagdim/zagdim-lang-switch-style.git
+cd zagdim-lang-switch-style
 ```
 
-This creates a `[repository-name]` folder with all project files.
+This creates a `zagdim-lang-switch-style` folder with all project files.
 
 ### Every next time: get the latest changes
 
 Before starting new work, update your copy:
 
 ```bash
-cd [repository-name]
+cd zagdim-lang-switch-style
 git switch main
 git pull
 ```
@@ -35,7 +42,7 @@ git pull
 You don't have to type these commands yourself. Open the project in your AI assistant
 (Claude Code, Gemini, etc.) and just ask, for example:
 
-- "Download the [repository-name] project for me" (clone)
+- "Download the zagdim-lang-switch-style project for me" (clone)
 - "Update the project to the latest version" (pull)
 
 The model is also instructed (see [`AGENTS.md`](AGENTS.md)) to check for updates at the start of
@@ -50,7 +57,7 @@ setting any of them up, ask **Valentin**.
 
 - **GitHub CLI (`gh`)** — the official [GitHub command-line tool](https://cli.github.com/).
   After installing it and logging in once (`gh auth login`), you (or the AI model) can download
-  the project with `gh repo clone Zagdim/[repository-name]`, and create, review and merge Pull
+  the project with `gh repo clone Zagdim/zagdim-lang-switch-style`, and create, review and merge Pull
   Requests right from the terminal, without opening the GitHub website.
 - **GitHub MCP** — you don't necessarily need a local copy at all. The project can be connected
   to your AI assistant through the GitHub MCP connector, so the model reads and changes files
