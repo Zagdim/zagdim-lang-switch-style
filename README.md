@@ -3,7 +3,7 @@
 ## Description
 
 Simple set of css styles for the language switcher in zagdim.com.
-Cached artifact available at [jsdelivr](https://jsdelivr.net/gh/Zagdim/zagdim-lang-switch-style@main/style.css) CDN. Cache is force renewed at avery push to the repo (see github-workflow file).
+Cached artifact available at [jsdelivr]([https://jsdelivr.net/gh/Zagdim/zagdim-lang-switch-style@main/style.css](https://cdn.jsdelivr.net/gh/Zagdim/zagdim-lang-switch-style@main/style.css) CDN. Cache is force renewed at avery push to the repo (see github-workflow file).
 
 Preview available at [github page](https://zagdim.github.io/zagdim-lang-switch-style/).
 
